@@ -1,0 +1,32 @@
+.body-content {
+  height: 100vh;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.body-content h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.body-content p {
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #fff;
+  font-weight: 400;
+}
+
+#arrow {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+}
