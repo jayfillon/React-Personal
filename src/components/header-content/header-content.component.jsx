@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import SocialMedia from "../social-media/social-media.component";
-import "./header-content.styles.scss";
 import Typed from "../typed/typed.component";
+
+import "./header-content.styles.scss";
 
 class HeaderContent extends Component {
   constructor() {
@@ -40,13 +41,17 @@ class HeaderContent extends Component {
           <h1>
             I'm <Typed />
           </h1>
-          <p>I design and develop experiences that makes people's lives <strong>simple.</strong></p>
+          <p>
+            I design and develop experiences that makes people's lives{" "}
+            <strong>simple.</strong>
+          </p>
 
           <ul className="list-unstyled list-social">
             {this.state.socialMedia.map(({ className, linkUrl, id }) => (
               <SocialMedia key={id} className={className} linkUrl={linkUrl} />
             ))}
           </ul>
+
           <a href="#body">
             <i id="arrow" className="ion-android-arrow-down"></i>
           </a>
@@ -55,8 +60,8 @@ class HeaderContent extends Component {
     );
   }
 }
-
-//Fix the arrow placement with Flexbox
+//#body refers to the bodyPage inside the pages folder... 
 //Arrow transitions (Google Chrome bookmark for transition ideas?)
 
 export default HeaderContent;
+

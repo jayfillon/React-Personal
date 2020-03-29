@@ -2,7 +2,7 @@ import React from "react";
 
 import BodyContent from '../../components/body-content/body-content.component';
 
-import './body.component.scss';
+import './body.styles.scss';
 
 const Body = () => (
   <div id="body" className="home">
