@@ -65,3 +65,5 @@ class HeaderContent extends Component {
 
 export default HeaderContent;
 
+//Implement the about page, and the projects page
+//Figure out the React-Router-Dom situation

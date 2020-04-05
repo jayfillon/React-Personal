@@ -5,7 +5,7 @@ import BodyContent from '../../components/body-content/body-content.component';
 import './body.styles.scss';
 
 const Body = () => (
-  <div id="body" className="home">
+  <div id="body">
     <BodyContent />
   </div>
 );

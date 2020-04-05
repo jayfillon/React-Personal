@@ -5,7 +5,7 @@ import HeaderContent from '../../components/header-content/header-content.compon
 import './header.styles.scss';
 
 const Header = () => (
-  <div id="header" className="home">
+  <div id="header">
     <HeaderContent />
   </div>
 );

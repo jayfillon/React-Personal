@@ -11,18 +11,21 @@ class BodyContent extends Component {
       bodyContent: [
         {
           cardName: "blogs",
-          img: "",
-          id: 1
+          img: "https://image.flaticon.com/icons/svg/2762/2762520.svg",
+          id: 1,
+          desc: "WORK IN PROGRESS"
         },
         {
           cardName: "projects",
-          img: "",
-          id: 2
+          img: "https://image.flaticon.com/icons/svg/2762/2762575.svg",
+          id: 2,
+          desc: "APPLICATIONS I'VE BUILT"
         },
         {
           cardName: "about",
-          img: "",
-          id: 3
+          img: "https://image.flaticon.com/icons/svg/2762/2762438.svg",
+          id: 3,
+          desc: "GET TO KNOW ME"
         }
       ]
     };
@@ -39,7 +42,11 @@ class BodyContent extends Component {
             <i id="arrow" className="ion-android-arrow-up"></i>
           </a>
 
-          <h3> Feel free to contact me for upcoming projects & future collaborations! </h3>
+          <h3>
+            {" "}
+            Feel free to contact me for upcoming projects & future
+            collaborations!{" "}
+          </h3>
         </div>
       </div>
     );
