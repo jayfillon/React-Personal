@@ -52,7 +52,7 @@ class HeaderContent extends Component {
             ))}
           </ul>
 
-          <a href="#body">
+          <a href="/body">
             <i id="arrow" className="ion-android-arrow-down"></i>
           </a>
         </div>

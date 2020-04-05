@@ -5,7 +5,7 @@ import AboutContent from "../../components/about-content/about-content.component
 import "./about.styles.scss";
 
 const About = () => (
-  <div id="about" className="about">
+  <div id="about">
     <AboutContent />
   </div>
 );

@@ -27,8 +27,6 @@ class AboutContent extends Component {
   }
 }
 
-//I DONT KNOW WHY THE ARROW IS NOT WORKING GRRRRRRR
-
 //https://i.imgur.com/hERQ09O.jpg <-- Photo of myself
 
 export default AboutContent;
